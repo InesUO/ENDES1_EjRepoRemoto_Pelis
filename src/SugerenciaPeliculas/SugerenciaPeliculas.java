@@ -98,7 +98,7 @@ public class SugerenciaPeliculas {
 					
 					//Ines	
 					case 15:
-						NoHayAlumno();
+						InesPeli();
 						break;
 						
 					// Opción 0: Salir del programa.	
@@ -145,5 +145,14 @@ public class SugerenciaPeliculas {
 	public static void CarmenPeli()
 	{
 		System.out.println("Os recomiendo la película Scream - Soy Carmen");
+	}
+	
+	/**
+	 * Este método se encarga de mostrar la película recomendada por Inés
+	 * @return void
+	*/
+	public static void InesPeli()
+	{
+		System.out.println("Os recomiendo la película 'La Abuela' - Inés");
 	}
 }
