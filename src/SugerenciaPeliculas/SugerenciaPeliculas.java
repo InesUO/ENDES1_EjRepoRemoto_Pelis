@@ -13,7 +13,7 @@ public class SugerenciaPeliculas {
 		while (!salir) 
 		{
 			// Mostrar el menú inicial
-			System.out.println("\nElige el número que quieras del 1 al 15.");
+			System.out.println("\nElige el número que quieras del 1 al 16.");
 			System.out.println("Podrás ver una recomendación de una película que te sugiere un compañero/a");
 			System.out.println("0: Salir");
 
@@ -100,6 +100,11 @@ public class SugerenciaPeliculas {
 					case 15:
 						InesPeli();
 						break;
+					
+					//Priego
+					case 16:
+						NoHayAlumno();
+						break;
 						
 					// Opción 0: Salir del programa.	
 					case 0:
@@ -117,7 +122,7 @@ public class SugerenciaPeliculas {
 					
 					// Si se ha elegido una opción distinta, se recuerda al usuario las opciones disonibles
 					default:
-						System.out.println("Introduce un número del 1 al 15 para ver el mensaje del alumno/a o el 0 para salir.");
+						System.out.println("Introduce un número del 1 al 16 para ver el mensaje del alumno/a o el 0 para salir.");
 				}
 				
 			} catch (InputMismatchException e) 
