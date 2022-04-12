@@ -158,6 +158,6 @@ public class SugerenciaPeliculas {
 	*/
 	public static void InesPeli()
 	{
-		System.out.println("Os recomiendo la película de miedo 'La Abuela' - Inés");
+		System.out.println("Os recomiendo la película de 'El guerrero Nº 13' - Inés");
 	}
 }
