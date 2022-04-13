@@ -103,7 +103,7 @@ public class SugerenciaPeliculas {
 					
 					//Priego
 					case 16:
-						NoHayAlumno();
+						PriegoPeli();
 						break;
 						
 					// Opción 0: Salir del programa.	
@@ -159,5 +159,14 @@ public class SugerenciaPeliculas {
 	public static void InesPeli()
 	{
 		System.out.println("Os recomiendo la película de 'El guerrero Nº 13' - Inés");
+	}
+	
+	/**
+	 * Este método se encarga de mostrar un mensaje indicando que la opción no tiene asignada ningún alumno/a
+	 * @return void
+	*/
+	public static void PriegoPeli()
+	{
+		System.out.println("Hola A todos/as. Yo os recomiendo la peli _ El guerrero de ENDES");
 	}
 }
