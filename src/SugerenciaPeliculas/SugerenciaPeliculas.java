@@ -73,7 +73,7 @@ public class SugerenciaPeliculas {
 					
 					//Alumna 10: Paula
 					case 10:
-						NoHayAlumno();
+						PaulaPeli();
 						break;
 					
 					//Alumna 11: Raul
@@ -168,5 +168,14 @@ public class SugerenciaPeliculas {
 	public static void PriegoPeli()
 	{
 		System.out.println("Hola A todos/as. Yo os recomiendo la peli _ El guerrero de ENDES");
+	}
+	
+	/**
+	 * Este método se encarga de mostrar la película recomendada por Paula
+	 * @return void
+	*/
+	public static void PaulaPeli()
+	{
+		System.out.println("Una de las películas que más me ha gustado y mejor recuerdo es 'Marte', espero que os guste. - Paula");
 	}
 }
