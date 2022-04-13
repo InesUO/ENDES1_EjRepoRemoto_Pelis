@@ -33,7 +33,7 @@ public class SugerenciaPeliculas {
 					
 					//Alumna 2: Lucía
 					case 2:
-						NoHayAlumno();
+						LuciaPeli();
 						break;
 						
 					//Alumno 3: Denzel
@@ -177,5 +177,10 @@ public class SugerenciaPeliculas {
 	public static void PaulaPeli()
 	{
 		System.out.println("Una de las películas que más me ha gustado y mejor recuerdo es 'Marte', espero que os guste. - Paula");
+	}
+	
+	public static void LuciaPeli()
+	{
+		System.out.println("Sin duda os recomiendo 'Interstellar', una de mis peliculas favoritas - Lucía");
 	}
 }
