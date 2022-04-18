@@ -48,7 +48,7 @@ public class SugerenciaPeliculas {
 					
 					//Alumno 5: Pablo
 					case 5:
-						NoHayAlumno();
+						PabloPeli();
 						break;
 
 					//Alumna 6: Yara
@@ -191,5 +191,13 @@ public class SugerenciaPeliculas {
 	public static void YaraPeli()
 	{
 		System.out.println("Una de las más recientes que he visto y que más me ha gustado es 'Dune', os la recomiendo ver. - Yara");
+	}
+	/**
+	 * Este método se encarga de mostrar la película recomendada por Pablo
+	 * @return void
+	*/
+	public static void PabloPeli()
+	{
+		System.out.println("Siempre que se habla de recomendar películas la primera que se me viene a la mente es 'Avatar'. - Pablo");
 	}
 }
