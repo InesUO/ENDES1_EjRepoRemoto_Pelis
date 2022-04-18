@@ -38,7 +38,7 @@ public class SugerenciaPeliculas {
 						
 					//Alumno 3: Denzel
 					case 3:
-						NoHayAlumno();
+						DenzelPeli();
 						break;
 					
 					//Alumno 4: Daniel 
@@ -200,4 +200,15 @@ public class SugerenciaPeliculas {
 	{
 		System.out.println("Siempre que se habla de recomendar películas la primera que se me viene a la mente es 'Avatar'. - Pablo");
 	}
+	
+	/**
+	 * Este método se encarga de mostrar un mensaje indicando que la opción no tiene asignada ningún alumno/a
+	 * @return void
+	*/
+	
+	public static void DenzelPeli()
+	{
+		System.out.println("Yo pelicula que recomiendo seria 'El viaje de chihiro'. - Denzel");
+	}
+	
 }
