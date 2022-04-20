@@ -28,7 +28,7 @@ public class SugerenciaPeliculas {
 				{
 					//Alumno 1: Kevin
 					case 1:
-						NoHayAlumno();
+						KevinPeli();
 						break;
 					
 					//Alumna 2: Lucía
@@ -199,6 +199,14 @@ public class SugerenciaPeliculas {
 	public static void PabloPeli()
 	{
 		System.out.println("Siempre que se habla de recomendar películas la primera que se me viene a la mente es 'Avatar'. - Pablo");
+	}
+	/**
+	 * Este método se encarga de mostrar la película recomendada por Kevin
+	 * @return void
+	*/
+	public static void KevinPeli()
+	{
+		System.out.println("Una de las películas que más me ha gustado y mejor recuerdo es 'Fast and furious', espero que os guste. - Kevin");
 	}
 	
 	/**
