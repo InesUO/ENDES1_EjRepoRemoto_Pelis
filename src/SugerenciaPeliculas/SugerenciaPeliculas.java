@@ -58,7 +58,7 @@ public class SugerenciaPeliculas {
 					
 					//Alumno 7: Alex
 					case 7:
-						NoHayAlumno();
+						AlexPeli();
 						break;
 					
 					//Alumno 8: Iker
@@ -209,6 +209,14 @@ public class SugerenciaPeliculas {
 	public static void DenzelPeli()
 	{
 		System.out.println("Yo pelicula que recomiendo seria 'El viaje de chihiro'. - Denzel");
+	}
+	/**
+	 * Este método se encarga de mostrar un mensaje de recomendación de Álex
+	 * @return void
+	*/
+	public static void AlexPeli()
+	{
+		System.out.println("Hace poco vi la pelicula 'Una casa sobre el pantano' y creo que es una buena recomendacion");
 	}
 	
 }
