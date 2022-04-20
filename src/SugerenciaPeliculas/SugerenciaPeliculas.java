@@ -68,7 +68,7 @@ public class SugerenciaPeliculas {
 					
 					//Alumno 9: Andrei
 					case 9:
-						NoHayAlumno();
+						AndreiPeli();
 						break;
 					
 					//Alumna 10: Paula
@@ -225,6 +225,14 @@ public class SugerenciaPeliculas {
 	public static void AlexPeli()
 	{
 		System.out.println("Hace poco vi la pelicula 'Una casa sobre el pantano' y creo que es una buena recomendacion");
+	}
+	/**
+	 * Este método se encarga de mostrar un mensaje de recomendación de Andrei
+	 * @return void
+	*/
+	public static void 	AndreiPeli()
+	{
+		System.out.println("Desde que era pequeño me ha encantado la historia y la mitología, es por eso que 'Troya(2004)' es una de mis películas preferidas, la recomiendo mucho. - Andrei");
 	}
 	
 }
